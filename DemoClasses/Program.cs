@@ -12,9 +12,7 @@ namespace DemoClasses
             person.firstName = "Prasiddha";
             person.lastName = "Shrestha";
 			var Calculator = new Calculator();
-
-
-			
+	
           A:  Console.Write("Enter option:");
 			int c =Convert.ToInt32( Console.ReadLine() );
             
@@ -38,11 +36,7 @@ namespace DemoClasses
 					int result=Calculator.Add(3,4);
 					Console.WriteLine(result);
 					break;
-				
-
             }
-			
-			
 		}
 	}
 }
